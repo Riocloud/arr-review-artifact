@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.venv/
+reproduction*/
+experiments/runs/
+experiments/results/audits/llm_judge_labels/
+latex/build/
+*.aux
+*.log
+*.blg
+*.fdb_latexmk
+*.fls

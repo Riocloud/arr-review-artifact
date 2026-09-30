@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-06-01T00:52:17.146971+00:00",
+  "schema_version": "sage-law.harvey-manifest.v1",
+  "selection": {
+    "failure_mode_counts": {
+      "authority_status": 4,
+      "issue_coverage": 5,
+      "jurisdiction_governing_law": 4,
+      "privilege_release_review": 5,
+      "recommendation_authority": 5,
+      "source_support": 5
+    },
+    "limit": 5,
+    "practice_area_counts": {
+      "capital-markets": 1,
+      "corporate-ma": 1,
+      "funds-asset-management": 1,
+      "litigation-dispute-resolution": 1,
+      "tax": 1
+    },
+    "strategy": "greedy_failure_mode_and_practice_area_stratification"
+  },
+  "source": {
+    "lab_dir": "external_checkout_configured_by_HARVEY_LAB_DIR",
+    "repo": "https://github.com/harveyai/harvey-labs",
+    "task_count_available": 1251
+  },
+  "tasks": [
+    {
+      "criteria_count": 89,
+      "deliverables": [
+        "motion-to-dismiss.docx",
+        "proposed-order.docx",
+        "cover-memo.docx"
+      ],
+      "document_count": 24,
+      "document_ext_counts": {
+        "docx": 24
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "litigation-dispute-resolution",
+      "tags": [
+        "motion-to-dismiss",
+        "commercial-litigation",
+        "software-licensing",
+        "breach-of-contract",
+        "fraud",
+        "DTPA",
+        "Rule-12(b)(6)",
+        "enterprise-software",
+        "healthcare-IT"
+      ],
+      "task_id": "litigation-dispute-resolution/draft-motion-to-dismiss-brief",
+      "title": "Draft Rule 12(b)(6) Motion to Dismiss Brief \u2014 Commercial Software Licensing Dispute",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 124,
+      "deliverables": [
+        "tax-structure-memo.docx",
+        "tax-cost-model.xlsx",
+        "action-item-tracker.xlsx"
+      ],
+      "document_count": 22,
+      "document_ext_counts": {
+        "docx": 22
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "tax",
+      "tags": [
+        "cross-border",
+        "tax",
+        "M&A",
+        "multi-jurisdiction"
+      ],
+      "task_id": "tax/draft-cross-border-acquisition-tax-memo",
+      "title": "Cross-Border Acquisition Tax Structure Memo",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 117,
+      "deliverables": [
+        "stock-purchase-agreement.docx"
+      ],
+      "document_count": 18,
+      "document_ext_counts": {
+        "docx": 15,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-ma",
+      "tags": [
+        "Mergers & Acquisitions",
+        "stock-purchase-agreement",
+        "healthcare",
+        "private-acquisition",
+        "diagnostics",
+        "post-closing-adjustments",
+        "representations-warranties",
+        "closing-conditions"
+      ],
+      "task_id": "corporate-ma/draft-stock-purchase-agreement",
+      "title": "Draft Stock Purchase Agreement for Acquisition of Meridian Diagnostics Holdings",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 83,
+      "deliverables": [
+        "indenture-draft.docx",
+        "issues-memorandum.docx"
+      ],
+      "document_count": 14,
+      "document_ext_counts": {
+        "docx": 11,
+        "eml": 2,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "capital-markets",
+      "tags": [
+        "Capital Markets",
+        "high-yield-notes",
+        "indenture",
+        "senior-secured",
+        "Rule-144A",
+        "Trust-Indenture-Act",
+        "debt-financing",
+        "private-equity-backed"
+      ],
+      "task_id": "capital-markets/draft-indenture-for-senior-secured-notes-offering",
+      "title": "Draft Indenture for $425M Senior Secured Notes Offering \u2014 Ridgeline Infrastructure Holdings",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 106,
+      "deliverables": [
+        "fund-economics-comparison-memo.docx",
+        "ppm-lpa-discrepancy-log.xlsx",
+        "side-letter-economics-matrix.xlsx",
+        "mfn-impact-model.xlsx",
+        "fund-iv-to-fund-v-comparison-table.xlsx"
+      ],
+      "document_count": 14,
+      "document_ext_counts": {
+        "docx": 11,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "funds-asset-management",
+      "tags": [
+        "fund-formation",
+        "private-equity",
+        "LP-economics",
+        "side-letters",
+        "management-fees",
+        "carried-interest",
+        "waterfall",
+        "MFN",
+        "fee-modeling",
+        "fund-terms-comparison"
+      ],
+      "task_id": "funds-asset-management/analyze-fund-economics-comparison",
+      "title": "Fund Economics Comparison Analysis \u2014 Thornfield Capital Partners Fund V",
+      "work_type": "analyze"
+    }
+  ]
+}

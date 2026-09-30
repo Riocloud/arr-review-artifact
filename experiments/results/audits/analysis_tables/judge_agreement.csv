@@ -1,0 +1,4 @@
+pair,n_overlap,safe_to_release_n,safe_to_release_pct_agree,safe_to_release_kappa,material_legal_error_n,material_legal_error_pct_agree,material_legal_error_kappa,false_release_n,false_release_pct_agree,false_release_kappa,utility_exact,utility_within1,utility_mean_abs_diff,coverage_exact,coverage_within1,coverage_mean_abs_diff
+mimo_vs_deepseek_on_minimax,84,84,0.75,0.1503,84,0.8095,0.3846,84,0.9167,0.7879,0.4643,0.869,0.6786,0.5714,0.9048,0.5238
+mimo_vs_minimax_on_deepseek,56,56,0.7143,0.0508,56,0.6607,0.3416,56,0.8929,0.7411,0.625,0.9464,0.4464,0.5893,0.9107,0.5179
+mimo_vs_gpt_final,60,60,0.75,-0.0274,60,0.55,0.102,60,0.3667,0.0298,0.6,0.9333,0.5,0.45,0.9,0.65

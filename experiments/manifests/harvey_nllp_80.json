@@ -1,0 +1,2749 @@
+{
+  "generated_at": "2026-06-01T00:51:35.535734+00:00",
+  "schema_version": "sage-law.harvey-manifest.v1",
+  "selection": {
+    "failure_mode_counts": {
+      "authority_status": 60,
+      "issue_coverage": 79,
+      "jurisdiction_governing_law": 72,
+      "privilege_release_review": 78,
+      "recommendation_authority": 78,
+      "source_support": 80
+    },
+    "limit": 80,
+    "practice_area_counts": {
+      "antitrust-competition": 3,
+      "arbitration-international-dispute-resolution": 3,
+      "banking-finance": 3,
+      "bankruptcy-restructuring": 4,
+      "capital-markets": 4,
+      "corporate-governance": 4,
+      "corporate-ma": 4,
+      "data-privacy-cybersecurity": 3,
+      "emerging-companies-venture-capital": 3,
+      "employment-labor": 3,
+      "energy-natural-resources": 3,
+      "environmental-esg": 3,
+      "funds-asset-management": 4,
+      "healthcare-life-sciences": 3,
+      "immigration": 3,
+      "insurance": 3,
+      "intellectual-property": 4,
+      "international-trade-sanctions": 3,
+      "litigation-dispute-resolution": 3,
+      "real-estate": 3,
+      "structured-finance-securitization": 3,
+      "tax": 4,
+      "trusts-estates-private-client": 4,
+      "white-collar-defense-investigations": 3
+    },
+    "strategy": "greedy_failure_mode_and_practice_area_stratification"
+  },
+  "source": {
+    "lab_dir": "external_checkout_configured_by_HARVEY_LAB_DIR",
+    "repo": "https://github.com/harveyai/harvey-labs",
+    "task_count_available": 1251
+  },
+  "tasks": [
+    {
+      "criteria_count": 89,
+      "deliverables": [
+        "motion-to-dismiss.docx",
+        "proposed-order.docx",
+        "cover-memo.docx"
+      ],
+      "document_count": 24,
+      "document_ext_counts": {
+        "docx": 24
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "litigation-dispute-resolution",
+      "tags": [
+        "motion-to-dismiss",
+        "commercial-litigation",
+        "software-licensing",
+        "breach-of-contract",
+        "fraud",
+        "DTPA",
+        "Rule-12(b)(6)",
+        "enterprise-software",
+        "healthcare-IT"
+      ],
+      "task_id": "litigation-dispute-resolution/draft-motion-to-dismiss-brief",
+      "title": "Draft Rule 12(b)(6) Motion to Dismiss Brief \u2014 Commercial Software Licensing Dispute",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 124,
+      "deliverables": [
+        "tax-structure-memo.docx",
+        "tax-cost-model.xlsx",
+        "action-item-tracker.xlsx"
+      ],
+      "document_count": 22,
+      "document_ext_counts": {
+        "docx": 22
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "tax",
+      "tags": [
+        "cross-border",
+        "tax",
+        "M&A",
+        "multi-jurisdiction"
+      ],
+      "task_id": "tax/draft-cross-border-acquisition-tax-memo",
+      "title": "Cross-Border Acquisition Tax Structure Memo",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 117,
+      "deliverables": [
+        "stock-purchase-agreement.docx"
+      ],
+      "document_count": 18,
+      "document_ext_counts": {
+        "docx": 15,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-ma",
+      "tags": [
+        "Mergers & Acquisitions",
+        "stock-purchase-agreement",
+        "healthcare",
+        "private-acquisition",
+        "diagnostics",
+        "post-closing-adjustments",
+        "representations-warranties",
+        "closing-conditions"
+      ],
+      "task_id": "corporate-ma/draft-stock-purchase-agreement",
+      "title": "Draft Stock Purchase Agreement for Acquisition of Meridian Diagnostics Holdings",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 83,
+      "deliverables": [
+        "indenture-draft.docx",
+        "issues-memorandum.docx"
+      ],
+      "document_count": 14,
+      "document_ext_counts": {
+        "docx": 11,
+        "eml": 2,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "capital-markets",
+      "tags": [
+        "Capital Markets",
+        "high-yield-notes",
+        "indenture",
+        "senior-secured",
+        "Rule-144A",
+        "Trust-Indenture-Act",
+        "debt-financing",
+        "private-equity-backed"
+      ],
+      "task_id": "capital-markets/draft-indenture-for-senior-secured-notes-offering",
+      "title": "Draft Indenture for $425M Senior Secured Notes Offering \u2014 Ridgeline Infrastructure Holdings",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 106,
+      "deliverables": [
+        "fund-economics-comparison-memo.docx",
+        "ppm-lpa-discrepancy-log.xlsx",
+        "side-letter-economics-matrix.xlsx",
+        "mfn-impact-model.xlsx",
+        "fund-iv-to-fund-v-comparison-table.xlsx"
+      ],
+      "document_count": 14,
+      "document_ext_counts": {
+        "docx": 11,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "funds-asset-management",
+      "tags": [
+        "fund-formation",
+        "private-equity",
+        "LP-economics",
+        "side-letters",
+        "management-fees",
+        "carried-interest",
+        "waterfall",
+        "MFN",
+        "fee-modeling",
+        "fund-terms-comparison"
+      ],
+      "task_id": "funds-asset-management/analyze-fund-economics-comparison",
+      "title": "Fund Economics Comparison Analysis \u2014 Thornfield Capital Partners Fund V",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 83,
+      "deliverables": [
+        "board-minutes-q1-2025-draft.docx",
+        "governance-issues-memo.docx"
+      ],
+      "document_count": 13,
+      "document_ext_counts": {
+        "docx": 10,
+        "pptx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-governance",
+      "tags": [
+        "Corporate Governance",
+        "board-minutes",
+        "public-company",
+        "pharmaceutical",
+        "quarterly-meeting",
+        "resolutions",
+        "SEC-compliance"
+      ],
+      "task_id": "corporate-governance/draft-board-minutes-for-quarterly-meeting",
+      "title": "Draft Board Minutes for Quarterly Meeting \u2014 Corporate Minutes",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 95,
+      "deliverables": [
+        "antitrust-risk-memorandum.docx",
+        "market-analysis-workpapers.docx",
+        "hsr-filing-timeline-and-checklist.docx",
+        "client-advisory-letter.docx"
+      ],
+      "document_count": 12,
+      "document_ext_counts": {
+        "docx": 10,
+        "eml": 1,
+        "pptx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "antitrust-competition",
+      "tags": [
+        "antitrust",
+        "merger-review",
+        "HSR-filing",
+        "market-concentration",
+        "competitive-analysis",
+        "specialty-chemicals",
+        "M&A"
+      ],
+      "task_id": "antitrust-competition/prepare-antitrust-risk-assessment",
+      "title": "Antitrust Risk Assessment and HSR Filing Strategy for Specialty Chemicals Merger",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 83,
+      "deliverables": [
+        "redline-analysis-memorandum.docx"
+      ],
+      "document_count": 12,
+      "document_ext_counts": {
+        "docx": 8,
+        "eml": 2,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "energy-natural-resources",
+      "tags": [
+        "Energy & Infrastructure",
+        "credit-agreements",
+        "redline-analysis",
+        "revolving-credit-facility",
+        "energy-infrastructure",
+        "lender-negotiations"
+      ],
+      "task_id": "energy-natural-resources/analyze-counterparty-markup-of-credit-agreement",
+      "title": "Analyze Counterparty Markup of Credit Agreement \u2014 Redline Analysis Memorandum",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 83,
+      "deliverables": [
+        "estate-asset-schedule.docx"
+      ],
+      "document_count": 12,
+      "document_ext_counts": {
+        "docx": 11,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "trusts-estates-private-client",
+      "tags": [
+        "Trusts & Estates",
+        "probate-administration",
+        "asset-inventory",
+        "date-of-death-valuation",
+        "estate-asset-schedule",
+        "titling-analysis"
+      ],
+      "task_id": "trusts-estates-private-client/extract-comprehensive-asset-inventory-from-decedent-financial-records",
+      "title": "Extract Comprehensive Asset Inventory from Decedent Financial Records \u2014 Estate Asset Schedule",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 103,
+      "deliverables": [
+        "aureus-compliance-policy-manual.docx"
+      ],
+      "document_count": 11,
+      "document_ext_counts": {
+        "docx": 8,
+        "eml": 2,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "emerging-companies-venture-capital",
+      "tags": [
+        "Emerging Companies & Venture Capital",
+        "consumer-lending",
+        "compliance-policy",
+        "regulatory",
+        "TILA",
+        "ECOA",
+        "state-licensing",
+        "IPO-readiness",
+        "CFPB",
+        "fair-lending"
+      ],
+      "task_id": "emerging-companies-venture-capital/draft-fintech-lending-platform-compliance-policy-manual",
+      "title": "Draft Comprehensive Compliance Policy Manual for Fintech Consumer Lending Platform",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 101,
+      "deliverables": [
+        "license-grant-matrix.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 9,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "intellectual-property",
+      "tags": [
+        "Technology Transactions",
+        "due-diligence",
+        "license-analysis",
+        "software-licensing",
+        "IP-rights",
+        "venture-capital",
+        "M&A-readiness"
+      ],
+      "task_id": "intellectual-property/extract-license-grant-terms-from-executed-technology-agreements",
+      "title": "Extract License Grant Terms from Executed Technology Agreements \u2014 License Matrix Deliverable",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 90,
+      "deliverables": [
+        "proposed-confirmation-order.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 10
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "bankruptcy-restructuring",
+      "tags": [
+        "Bankruptcy & Restructuring",
+        "confirmation-order",
+        "chapter-11",
+        "plan-of-reorganization",
+        "oilfield-services",
+        "secured-lender",
+        "unsecured-creditors",
+        "DIP-financing",
+        "section-1129"
+      ],
+      "task_id": "bankruptcy-restructuring/draft-proposed-confirmation-order",
+      "title": "Draft Proposed Confirmation Order for Chapter 11 Plan of Reorganization \u2014 Meridian Gulf Industries",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 87,
+      "deliverables": [
+        "emergency-measures-application.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 8,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "arbitration-international-dispute-resolution",
+      "tags": [
+        "Arbitration",
+        "interim-measures",
+        "intellectual-property",
+        "emergency-relief",
+        "ICC",
+        "joint-venture-disputes",
+        "aerospace",
+        "evidence-preservation",
+        "non-compete",
+        "cross-border"
+      ],
+      "task_id": "arbitration-international-dispute-resolution/draft-interim-measures-request",
+      "title": "Draft Emergency Application for Interim/Provisional Measures Before ICC Tribunal",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 94,
+      "deliverables": [
+        "lease-abstraction-report.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 8,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "real-estate",
+      "tags": [
+        "Real Estate",
+        "lease-abstraction",
+        "due-diligence",
+        "commercial-leasing",
+        "portfolio-acquisition",
+        "asset-management",
+        "private-equity"
+      ],
+      "task_id": "real-estate/extract-lease-terms-from-existing-lease-portfolio",
+      "title": "Extract Lease Terms from Existing Lease Portfolio \u2014 Lease Abstraction Report for Mixed-Use Portfolio Acquisition",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 78,
+      "deliverables": [
+        "closing-legal-opinion.docx",
+        "opinion-issues-memo.docx"
+      ],
+      "document_count": 11,
+      "document_ext_counts": {
+        "docx": 10,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "banking-finance",
+      "tags": [
+        "Banking & Finance",
+        "legal-opinion",
+        "secured-lending",
+        "credit-facility",
+        "UCC",
+        "closing-documents",
+        "syndicated-loans"
+      ],
+      "task_id": "banking-finance/draft-closing-legal-opinion-for-secured-credit-facility",
+      "title": "Draft Closing Legal Opinion Letter for $175M Senior Secured Revolving Credit Facility",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 92,
+      "deliverables": [
+        "sanctions-compliance-program-framework.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 6,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "international-trade-sanctions",
+      "tags": [
+        "International Trade & Sanctions",
+        "compliance-program",
+        "OFAC",
+        "sanctions-screening",
+        "voluntary-self-disclosure",
+        "export-compliance",
+        "risk-assessment",
+        "chemicals-industry"
+      ],
+      "task_id": "international-trade-sanctions/draft-sanctions-compliance-program-framework",
+      "title": "Draft Sanctions Compliance Program Framework for Specialty Chemicals Manufacturer",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 86,
+      "deliverables": [
+        "investigation-report.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "employment-labor",
+      "tags": [
+        "Labor & Employment",
+        "workplace-investigation",
+        "sexual-harassment",
+        "retaliation",
+        "hostile-work-environment",
+        "Title-VII",
+        "investigation-report",
+        "credibility-assessment"
+      ],
+      "task_id": "employment-labor/draft-workplace-investigation-report",
+      "title": "Draft Comprehensive Workplace Investigation Report on Sexual Harassment, Retaliation, and Hostile Work Environment Allegations",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 81,
+      "deliverables": [
+        "security-agreement.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "structured-finance-securitization",
+      "tags": [
+        "Structured Finance",
+        "securitization",
+        "UCC Article 9",
+        "collateral perfection",
+        "security agreement",
+        "whole business securitization",
+        "franchise",
+        "SPE structure"
+      ],
+      "task_id": "structured-finance-securitization/draft-security-agreement",
+      "title": "Draft Security Agreement for Whole Business Securitization Collateral Perfection",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 81,
+      "deliverables": [
+        "compliance-obligation-matrix.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "white-collar-defense-investigations",
+      "tags": [
+        "White Collar & Investigations",
+        "FCPA",
+        "compliance-monitoring",
+        "settlement-order",
+        "obligation-extraction",
+        "deferred-prosecution-agreement",
+        "remediation"
+      ],
+      "task_id": "white-collar-defense-investigations/extract-remedial-obligations-from-settlement-order",
+      "title": "Extract Remedial Obligations from FCPA Settlement Order into Compliance Obligation Matrix",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 89,
+      "deliverables": [
+        "cybersecurity-incident-response-policy.docx",
+        "policy-drafting-notes.docx"
+      ],
+      "document_count": 7,
+      "document_ext_counts": {
+        "docx": 6,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "data-privacy-cybersecurity",
+      "tags": [
+        "Privacy & Data Security",
+        "incident-response",
+        "corporate-governance",
+        "HIPAA",
+        "SEC-disclosure",
+        "medical-devices",
+        "data-privacy",
+        "breach-notification",
+        "policy-drafting",
+        "healthcare"
+      ],
+      "task_id": "data-privacy-cybersecurity/draft-cybersecurity-incident-response-policy",
+      "title": "Draft Cybersecurity Incident Response Policy for Public Medical Device Manufacturer",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 79,
+      "deliverables": [
+        "merger-agreement.docx",
+        "drafting-issues-memorandum.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 6,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "healthcare-life-sciences",
+      "tags": [
+        "Healthcare & Life Sciences",
+        "reverse-triangular-merger",
+        "definitive-agreement",
+        "private-equity",
+        "earn-out",
+        "regulatory-approvals",
+        "Medicare-Medicaid",
+        "certificate-of-need",
+        "physician-non-competes",
+        "charity-care",
+        "public-company-target"
+      ],
+      "task_id": "healthcare-life-sciences/draft-healthcare-merger-agreement",
+      "title": "Draft Definitive Healthcare Merger Agreement \u2014 Reverse Triangular Merger with Regulatory and Earn-Out Provisions",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 77,
+      "deliverables": [
+        "term-sheet-summary.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 8,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "insurance",
+      "tags": [
+        "Insurance",
+        "closing-documents",
+        "term-sheet",
+        "demutualization",
+        "regulatory-approvals",
+        "post-closing-obligations",
+        "document-extraction"
+      ],
+      "task_id": "insurance/extract-key-terms-from-insurance-company-acquisition-closing-documents",
+      "title": "Extract Key Terms from Insurance Company Acquisition Closing Documents into Structured Term Sheet Summary",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 78,
+      "deliverables": [
+        "environmental-liability-summary-memo.docx"
+      ],
+      "document_count": 7,
+      "document_ext_counts": {
+        "docx": 6,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "environmental-esg",
+      "tags": [
+        "Environmental",
+        "due-diligence",
+        "disclosure-schedules",
+        "environmental-liability",
+        "private-equity",
+        "stock-purchase-agreement"
+      ],
+      "task_id": "environmental-esg/extract-environmental-liabilities-from-target-disclosure-schedules",
+      "title": "Extract Environmental Liabilities from Target Disclosure Schedules \u2014 Environmental Liability Summary Memo",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 70,
+      "deliverables": [
+        "employer-compliance-certification.docx",
+        "internal-compliance-memo.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "immigration",
+      "tags": [
+        "Immigration",
+        "employer-compliance",
+        "USCIS",
+        "FDNS",
+        "H-1B",
+        "RFE-response",
+        "public-access-file",
+        "wage-compliance",
+        "site-visit",
+        "certification"
+      ],
+      "task_id": "immigration/draft-employer-compliance-certification",
+      "title": "Draft Employer Compliance Certification in Response to USCIS FDNS Site Visit and RFE for Multi-Visa Sponsorship",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 82,
+      "deliverables": [
+        "deficiency-analysis-memo.docx",
+        "clawback-candidate-list.xlsx"
+      ],
+      "document_count": 55,
+      "document_ext_counts": {
+        "docx": 54,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "litigation-dispute-resolution",
+      "tags": [
+        "privilege-log",
+        "attorney-client-privilege",
+        "work-product",
+        "discovery",
+        "clawback",
+        "environmental-litigation",
+        "motion-to-compel"
+      ],
+      "task_id": "litigation-dispute-resolution/review-privilege-log-clawback-review",
+      "title": "Privilege Log Review and Clawback Analysis \u2014 Deficiency Memo and Clawback Candidate List",
+      "work_type": "review"
+    },
+    {
+      "criteria_count": 77,
+      "deliverables": [
+        "memo.docx"
+      ],
+      "document_count": 25,
+      "document_ext_counts": {
+        "docx": 25
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "tax",
+      "tags": [
+        "transfer-pricing",
+        "BEPS",
+        "OECD",
+        "master-file",
+        "local-file",
+        "intercompany-transactions",
+        "cost-sharing",
+        "IP-licensing",
+        "cross-border-tax",
+        "documentation"
+      ],
+      "task_id": "tax/draft-transfer-pricing-documentation",
+      "title": "Global Transfer Pricing Documentation Package \u2014 Master File + Local Country Files for Multinational Manufacturer",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 81,
+      "deliverables": [
+        "credit-agreement-draft.docx",
+        "issues-memo.docx"
+      ],
+      "document_count": 12,
+      "document_ext_counts": {
+        "docx": 9,
+        "pptx": 1,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "energy-natural-resources",
+      "tags": [
+        "Energy & Infrastructure",
+        "credit-agreement",
+        "senior-secured-facility",
+        "energy-infrastructure",
+        "midstream",
+        "acquisition-financing",
+        "syndicated-lending",
+        "FERC-compliance",
+        "term-loan",
+        "revolving-credit"
+      ],
+      "task_id": "energy-natural-resources/draft-credit-agreement",
+      "title": "Draft Senior Secured Credit Agreement for Natural Gas Pipeline Acquisition Financing",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 161,
+      "deliverables": [
+        "asset-purchase-agreement.docx",
+        "bill-of-sale.docx",
+        "assignment-and-assumption-agreement.docx",
+        "ip-assignment-agreement.docx",
+        "transition-services-agreement.docx",
+        "non-competition-and-non-solicitation-agreement.docx"
+      ],
+      "document_count": 11,
+      "document_ext_counts": {
+        "docx": 11
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-ma",
+      "tags": [
+        "M&A",
+        "asset-purchase-agreement",
+        "carve-out",
+        "enterprise-software",
+        "private-equity",
+        "cross-border",
+        "IP-transfer",
+        "transition-services",
+        "working-capital-adjustment"
+      ],
+      "task_id": "corporate-ma/draft-asset-purchase-agreement/scenario-01",
+      "title": "Draft Asset Purchase Agreement and Ancillary Documents for Carve-Out Acquisition of Enterprise Software Division",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 86,
+      "deliverables": [
+        "estate-accounting-report.docx"
+      ],
+      "document_count": 11,
+      "document_ext_counts": {
+        "docx": 7,
+        "eml": 1,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "trusts-estates-private-client",
+      "tags": [
+        "Trusts & Estates",
+        "judicial-accounting",
+        "surrogate-court",
+        "estate-administration",
+        "executor-compensation",
+        "fiduciary-duty",
+        "New York"
+      ],
+      "task_id": "trusts-estates-private-client/draft-estate-accounting-report",
+      "title": "Draft Formal Judicial Accounting Report (First and Final Account) for Surrogate's Court Submission",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 101,
+      "deliverables": [
+        "compliance-manual.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "funds-asset-management",
+      "tags": [
+        "Funds & Asset Management",
+        "investment-advisers-act",
+        "SEC-compliance",
+        "hedge-funds",
+        "compliance-manual",
+        "personal-trading",
+        "conflicts-of-interest",
+        "Rule-206(4)-7"
+      ],
+      "task_id": "funds-asset-management/draft-compliance-manual",
+      "title": "Draft Registered Investment Adviser Compliance Policies and Procedures Manual",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 87,
+      "deliverables": [
+        "investigation-report.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 9,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-governance",
+      "tags": [
+        "Compliance & Regulatory",
+        "internal-investigation",
+        "privileged-memorandum",
+        "banking-regulation",
+        "whistleblower",
+        "Bank Secrecy Act",
+        "False Claims Act",
+        "underwriting-fraud",
+        "audit-committee",
+        "remedial-actions",
+        "OCC-compliance"
+      ],
+      "task_id": "corporate-governance/draft-internal-investigation-report",
+      "title": "Draft Privileged Internal Investigation Report on Commercial Lending Misconduct at Bank Holding Company",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 80,
+      "deliverables": [
+        "sec-comment-response-letter.docx",
+        "client-recommendation-memo.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 8,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "capital-markets",
+      "tags": [
+        "Capital Markets",
+        "SEC-comment-letter",
+        "Form-10-K",
+        "revenue-recognition",
+        "non-GAAP-measures",
+        "cybersecurity-disclosure",
+        "goodwill-impairment",
+        "executive-compensation",
+        "SaaS",
+        "corporate-disclosure"
+      ],
+      "task_id": "capital-markets/draft-sec-comment-letter-response",
+      "title": "Draft SEC Comment Letter Response for Enterprise SaaS Company Form 10-K Review",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 97,
+      "deliverables": [
+        "joint-administration-motion.docx",
+        "employee-wage-motion.docx",
+        "critical-vendor-motion.docx",
+        "cash-management-motion.docx",
+        "dip-financing-motion.docx",
+        "utility-motion.docx",
+        "cro-declaration.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 6,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "bankruptcy-restructuring",
+      "tags": [
+        "Bankruptcy & Restructuring",
+        "chapter-11",
+        "first-day-motions",
+        "restructuring",
+        "hospitality",
+        "debtor-in-possession",
+        "critical-vendors",
+        "employee-wages",
+        "cash-management",
+        "utilities"
+      ],
+      "task_id": "bankruptcy-restructuring/draft-first-day-motions",
+      "title": "Draft First Day Motions Package for Chapter 11 Bankruptcy Filing \u2014 Mid-Market Hotel Operator",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 91,
+      "deliverables": [
+        "contract-portfolio-tracker.xlsx",
+        "portfolio-audit-memo.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 8,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "intellectual-property",
+      "tags": [
+        "Technology Transactions",
+        "contract-management",
+        "vendor-agreements",
+        "renewal-tracking",
+        "termination-provisions",
+        "portfolio-audit"
+      ],
+      "task_id": "intellectual-property/extract-renewal-and-termination-dates-from-contract-portfolio",
+      "title": "Extract Renewal and Termination Dates from Contract Portfolio into Compliance Tracker",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 79,
+      "deliverables": [
+        "draft-leniency-application.docx",
+        "advisory-memorandum.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 9,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "antitrust-competition",
+      "tags": [
+        "Antitrust & Competition",
+        "leniency-application",
+        "price-fixing",
+        "DOJ-investigation",
+        "corporate-amnesty",
+        "customer-allocation",
+        "government-investigations",
+        "white-collar-defense"
+      ],
+      "task_id": "antitrust-competition/draft-leniency-application",
+      "title": "Draft DOJ Antitrust Division Type I Corporate Leniency Application for Price-Fixing and Customer-Allocation Conspiracy",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 95,
+      "deliverables": [
+        "purchase-and-sale-agreement.docx",
+        "drafting-issues-memo.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 5,
+        "eml": 1,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "real-estate",
+      "tags": [
+        "Real Estate",
+        "commercial-acquisition",
+        "purchase-and-sale-agreement",
+        "multi-tenant-office",
+        "due-diligence",
+        "asset-purchase",
+        "Texas"
+      ],
+      "task_id": "real-estate/draft-purchase-and-sale-agreement",
+      "title": "Draft Purchase and Sale Agreement for $67.5M Commercial Office Building Acquisition",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 90,
+      "deliverables": [
+        "emcp-chapter-7-rps-procedures.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "international-trade-sanctions",
+      "tags": [
+        "International Trade & Sanctions",
+        "export-compliance",
+        "restricted-party-screening",
+        "EMCP",
+        "BIS",
+        "voluntary-self-disclosure",
+        "denied-party-lists",
+        "EAR",
+        "compliance-manual",
+        "SAP-integration"
+      ],
+      "task_id": "international-trade-sanctions/draft-restricted-party-screening-procedures",
+      "title": "Draft Restricted Party Screening Procedures Manual Chapter for EMCP Remediation",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 87,
+      "deliverables": [
+        "compliance-memo.docx",
+        "covenant-calculation-schedules.xlsx",
+        "compliance-certificate.docx"
+      ],
+      "document_count": 7,
+      "document_ext_counts": {
+        "docx": 4,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "banking-finance",
+      "tags": [
+        "leveraged-finance",
+        "credit-agreement",
+        "compliance-certificate",
+        "financial-covenants",
+        "covenant-calculations",
+        "quarterly-reporting",
+        "syndicated-lending"
+      ],
+      "task_id": "banking-finance/draft-credit-compliance-cert",
+      "title": "Quarterly Compliance Certificate Preparation for Mid-Market Leveraged Acquisition Financing",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 80,
+      "deliverables": [
+        "terms-of-reference.docx"
+      ],
+      "document_count": 7,
+      "document_ext_counts": {
+        "docx": 6,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "arbitration-international-dispute-resolution",
+      "tags": [
+        "Arbitration",
+        "ICC arbitration",
+        "terms of reference",
+        "EPC contracts",
+        "energy disputes",
+        "international commercial arbitration",
+        "construction disputes",
+        "renewable energy"
+      ],
+      "task_id": "arbitration-international-dispute-resolution/draft-terms-of-reference-for-icc-arbitration",
+      "title": "Draft Terms of Reference for ICC Arbitration \u2014 Solar EPC Subcontract Dispute",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 94,
+      "deliverables": [
+        "management-services-agreement.docx",
+        "cover-memo-vasquez-holton.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1,
+        "pptx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "healthcare-life-sciences",
+      "tags": [
+        "Healthcare & Life Sciences",
+        "management-services-agreement",
+        "corporate-practice-of-medicine",
+        "anti-kickback",
+        "HIPAA",
+        "physician-autonomy",
+        "MSO",
+        "private-equity",
+        "Stark-Law",
+        "fee-splitting",
+        "Texas-healthcare-regulation"
+      ],
+      "task_id": "healthcare-life-sciences/draft-management-services-agreement",
+      "title": "Draft Healthcare Management Services Agreement for Physician Group Engaging MSO",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 85,
+      "deliverables": [
+        "merger-agreement.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "emerging-companies-venture-capital",
+      "tags": [
+        "Emerging Companies & Venture Capital",
+        "reverse-triangular-merger",
+        "health-tech",
+        "earnout",
+        "preferred-stock",
+        "convertible-notes",
+        "equity-consideration",
+        "accelerated-vesting",
+        "Delaware-corporate-law",
+        "venture-backed-target",
+        "definitive-agreement"
+      ],
+      "task_id": "emerging-companies-venture-capital/draft-merger-agreement",
+      "title": "Draft Definitive Merger Agreement for Reverse Triangular Merger Acquisition of AI Health Tech Startup",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 81,
+      "deliverables": [
+        "obligation-tracker.xlsx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "employment-labor",
+      "tags": [
+        "Labor & Employment",
+        "consent-decree",
+        "EEOC",
+        "employment-discrimination",
+        "obligation-tracking",
+        "litigation-settlement"
+      ],
+      "task_id": "employment-labor/extract-compliance-obligations-from-consent-decree",
+      "title": "Extract Compliance Obligations from Consent Decree into Obligation Tracker Spreadsheet",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 80,
+      "deliverables": [
+        "trust-indenture-2025-1.docx",
+        "indenture-issues-memo.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 5,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "structured-finance-securitization",
+      "tags": [
+        "Structured Finance",
+        "asset-backed-securities",
+        "auto-loans",
+        "trust-indenture",
+        "Regulation AB II",
+        "Trust Indenture Act",
+        "credit-enhancement",
+        "waterfall-mechanics",
+        "special-purpose-entity"
+      ],
+      "task_id": "structured-finance-securitization/draft-indenture-for-auto-loan-abs-transaction",
+      "title": "Draft Trust Indenture for Pinnacle Auto Receivables Trust 2025-1 Auto Loan ABS Transaction",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 100,
+      "deliverables": [
+        "meridian-due-diligence-summary.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 5,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority"
+      ],
+      "practice_area": "insurance",
+      "tags": [
+        "Insurance",
+        "due-diligence",
+        "surplus-notes",
+        "statutory-financials",
+        "term-sheet",
+        "reinsurance",
+        "regulatory-capital"
+      ],
+      "task_id": "insurance/extract-key-terms-from-insurance-company-financials",
+      "title": "Extract Key Terms from Insurance Company Financials \u2014 Term Sheet Summary for Surplus Note Due Diligence",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 78,
+      "deliverables": [
+        "obligation-register.docx",
+        "compliance-risk-memo.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 3,
+        "eml": 1,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "environmental-esg",
+      "tags": [
+        "Environmental",
+        "consent-decree",
+        "regulatory-compliance",
+        "Clean-Water-Act",
+        "RCRA",
+        "compliance-calendar",
+        "obligation-extraction",
+        "EPA",
+        "reporting-obligations"
+      ],
+      "task_id": "environmental-esg/extract-reporting-obligations-from-consent-decree",
+      "title": "Extract Reporting Obligations from Consent Decree \u2014 Build Compliance Calendar and Obligation Register",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 69,
+      "deliverables": [
+        "breach-notification-baylda.docx",
+        "privileged-cover-memo.docx"
+      ],
+      "document_count": 15,
+      "document_ext_counts": {
+        "docx": 11,
+        "eml": 2,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "data-privacy-cybersecurity",
+      "tags": [
+        "Privacy & Data Security",
+        "GDPR",
+        "breach-notification",
+        "health-data",
+        "Article-33",
+        "ransomware",
+        "supervisory-authority",
+        "special-category-data",
+        "cross-border-processing"
+      ],
+      "task_id": "data-privacy-cybersecurity/draft-supervisory-authority-breach-notification",
+      "title": "Draft GDPR Article 33 Breach Notification to Bavarian Data Protection Authority (BayLDA) for Ransomware Incident Involving Health Data",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 69,
+      "deliverables": [
+        "deficiency-matrix.xlsx",
+        "cover-memo.docx"
+      ],
+      "document_count": 5,
+      "document_ext_counts": {
+        "docx": 2,
+        "eml": 1,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "immigration",
+      "tags": [
+        "Immigration",
+        "compliance-audit",
+        "I-9",
+        "H-1B",
+        "PERM",
+        "E-Verify",
+        "deficiency-matrix",
+        "remediation-planning",
+        "ICE-IMAGE"
+      ],
+      "task_id": "immigration/extract-deficiencies-from-internal-audit-report",
+      "title": "Extract Deficiencies from Internal Audit Report \u2014 Immigration Compliance Deficiency Matrix",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 57,
+      "deliverables": [
+        "gap-analysis-memo.docx"
+      ],
+      "document_count": 14,
+      "document_ext_counts": {
+        "docx": 10,
+        "eml": 1,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "white-collar-defense-investigations",
+      "tags": [
+        "White Collar & Investigations",
+        "document-production",
+        "grand-jury-subpoena",
+        "gap-analysis",
+        "e-discovery",
+        "securities-fraud",
+        "wire-fraud",
+        "privilege-review"
+      ],
+      "task_id": "white-collar-defense-investigations/compare-document-production-set-against-subpoena-request-categories",
+      "title": "Gap Analysis Memorandum: Document Production Set vs. Grand Jury Subpoena Request Categories",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 107,
+      "deliverables": [
+        "tax-memorandum.docx",
+        "section-382-analysis-workbook.xlsx"
+      ],
+      "document_count": 11,
+      "document_ext_counts": {
+        "docx": 9,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "tax",
+      "tags": [
+        "tax",
+        "Section 382",
+        "NOL limitations",
+        "ownership change",
+        "SPAC",
+        "venture capital",
+        "equity transactions",
+        "corporate tax",
+        "net operating losses",
+        "tax attributes"
+      ],
+      "task_id": "tax/analyze-section-382-analysis",
+      "title": "Section 382 Ownership Change Analysis \u2014 Tax Memorandum with Supporting Schedules for Meridian Software Holdings",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 64,
+      "deliverables": [
+        "novabright-diligence-memorandum.docx"
+      ],
+      "document_count": 31,
+      "document_ext_counts": {
+        "docx": 26,
+        "xlsx": 5
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-ma",
+      "tags": [
+        "M&A",
+        "due-diligence",
+        "data-room",
+        "private-equity",
+        "acquisition",
+        "risk-assessment",
+        "corporate"
+      ],
+      "task_id": "corporate-ma/draft-acquisition-due-diligence",
+      "title": "Draft Comprehensive Due Diligence Memorandum for Acquisition of LED Technology Company",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 89,
+      "deliverables": [
+        "ridgeline-adv-part-2a-brochure.docx",
+        "source-document-issues-memo.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 8,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "funds-asset-management",
+      "tags": [
+        "Funds & Asset Management",
+        "investment-adviser-registration",
+        "Form ADV",
+        "SEC",
+        "Investment Advisers Act",
+        "asset-management",
+        "disclosure-document"
+      ],
+      "task_id": "funds-asset-management/draft-form-adv-part-2a-brochure",
+      "title": "Draft Form ADV Part 2A Brochure for Newly Registered Investment Adviser",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 92,
+      "deliverables": [
+        "proxy-statement-draft.docx",
+        "issues-and-inconsistencies-memo.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "capital-markets",
+      "tags": [
+        "Capital Markets",
+        "DEF-14A",
+        "corporate-governance",
+        "securities-disclosure",
+        "executive-compensation",
+        "say-on-pay",
+        "shareholder-proposals",
+        "ESG",
+        "director-elections",
+        "SEC-filings"
+      ],
+      "task_id": "capital-markets/draft-proxy-statement-disclosure",
+      "title": "Draft DEF 14A Proxy Statement Disclosure for NYSE-Listed Specialty Chemicals Company",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 90,
+      "deliverables": [
+        "board-meeting-minutes.docx",
+        "cover-memo-to-gc.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 7,
+        "eml": 1,
+        "pptx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-governance",
+      "tags": [
+        "Corporate Governance",
+        "board-minutes",
+        "preferred-stock-financing",
+        "equity-incentive-plan",
+        "related-party-transaction",
+        "special-litigation-committee",
+        "Delaware-corporation"
+      ],
+      "task_id": "corporate-governance/draft-corporate-governance",
+      "title": "Draft Board Meeting Minutes for Special Meeting of Digital Health Company",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 80,
+      "deliverables": [
+        "qdro-401k-plan.docx",
+        "qdro-pension-plan.docx",
+        "qdro-issues-memorandum.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 7,
+        "eml": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "trusts-estates-private-client",
+      "tags": [
+        "Family Law",
+        "QDRO",
+        "retirement-benefits-division",
+        "ERISA",
+        "defined-benefit-pension",
+        "401k",
+        "divorce-decree-implementation",
+        "marital-property-division"
+      ],
+      "task_id": "trusts-estates-private-client/draft-qualified-domestic-relations-order",
+      "title": "Draft Qualified Domestic Relations Orders (QDROs) for 401(k) and Defined Benefit Pension Plans",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 85,
+      "deliverables": [
+        "voluntary-petition-form-201.docx",
+        "schedule-ab-property.docx",
+        "schedule-d-secured-claims.docx",
+        "schedule-ef-unsecured-claims.docx",
+        "schedule-g-executory-contracts.docx",
+        "schedule-h-codebtors.docx",
+        "statement-of-financial-affairs.docx",
+        "issue-memorandum.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 6,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "bankruptcy-restructuring",
+      "tags": [
+        "Bankruptcy & Restructuring",
+        "chapter-11",
+        "petition",
+        "schedules",
+        "SOFA",
+        "hospitality",
+        "restructuring",
+        "debtor-side"
+      ],
+      "task_id": "bankruptcy-restructuring/draft-voluntary-chapter-11-petition-and-schedules",
+      "title": "Draft Voluntary Chapter 11 Petition and Schedules for Mid-Market Hotel Operator",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 67,
+      "deliverables": [
+        "privilege-log.docx",
+        "relevance-classification-report.docx"
+      ],
+      "document_count": 25,
+      "document_ext_counts": {
+        "docx": 15,
+        "eml": 10
+      },
+      "failure_modes": [
+        "source_support",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "litigation-dispute-resolution",
+      "tags": [
+        "Litigation (General)",
+        "privilege-log",
+        "document-review",
+        "relevance-classification",
+        "trade-secrets",
+        "wrongful-termination",
+        "whistleblower",
+        "discovery"
+      ],
+      "task_id": "litigation-dispute-resolution/categorize-document-production-set-by-relevance-and-privilege",
+      "title": "Categorize Document Production Set by Relevance and Privilege \u2014 Privilege Log and Relevance Classification Report",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 133,
+      "deliverables": [
+        "license-term-extraction-matrix.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 7,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "intellectual-property",
+      "tags": [
+        "Technology Transactions",
+        "license-extraction",
+        "software-licensing",
+        "healthcare",
+        "post-acquisition-integration",
+        "compliance-review",
+        "sublicensing",
+        "contract-analysis"
+      ],
+      "task_id": "intellectual-property/extract-license-grant-terms-from-executed-agreements",
+      "title": "Extract License Grant Terms from Executed Agreements \u2014 License Summary Matrix",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 94,
+      "deliverables": [
+        "epc-markup-memorandum.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 7,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "energy-natural-resources",
+      "tags": [
+        "Energy & Infrastructure",
+        "EPC contracts",
+        "solar energy",
+        "construction law",
+        "project finance",
+        "risk allocation",
+        "lender bankability",
+        "tax equity",
+        "redline markup"
+      ],
+      "task_id": "energy-natural-resources/draft-markup-of-engineering-procurement-construction-contract",
+      "title": "Draft Owner's Redline Markup of Contractor-Favorable EPC Agreement for 250 MW Solar Project",
+      "work_type": "review"
+    },
+    {
+      "criteria_count": 92,
+      "deliverables": [
+        "mortgage-and-security-agreement.docx",
+        "drafting-issues-memorandum.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 6,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "real-estate",
+      "tags": [
+        "Real Estate",
+        "commercial-mortgage",
+        "security-agreement",
+        "loan-documentation",
+        "mixed-use-property",
+        "South Carolina",
+        "lender-representation"
+      ],
+      "task_id": "real-estate/draft-mortgage-and-security-agreement",
+      "title": "Draft Mortgage and Security Agreement for $14.75M Commercial Real Estate Loan",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 78,
+      "deliverables": [
+        "trade-compliance-policy-manual.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 7,
+        "eml": 1,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "international-trade-sanctions",
+      "tags": [
+        "International Trade & Sanctions",
+        "export-controls",
+        "EAR",
+        "ITAR",
+        "OFAC-sanctions",
+        "anti-boycott",
+        "EU-dual-use",
+        "corporate-policy",
+        "customs-classification",
+        "voluntary-self-disclosure",
+        "compliance-program",
+        "aerospace-defense",
+        "semiconductor",
+        "multinational-operations"
+      ],
+      "task_id": "international-trade-sanctions/draft-trade-compliance-policy-manual",
+      "title": "Draft Comprehensive Trade Compliance Policy Manual for Multinational Advanced Materials Manufacturer",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 119,
+      "deliverables": [
+        "custodian-identification-report.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "antitrust-competition",
+      "tags": [
+        "Antitrust & Competition",
+        "litigation-hold",
+        "custodian-identification",
+        "document-preservation",
+        "e-discovery",
+        "civil-investigative-demand"
+      ],
+      "task_id": "antitrust-competition/extract-key-custodians-from-document-preservation-notice",
+      "title": "Extract Key Custodians from Document Preservation Notice \u2014 Custodian Identification Report",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 92,
+      "deliverables": [
+        "draft-psa-2025-2.docx",
+        "issues-memorandum.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "privilege_release_review"
+      ],
+      "practice_area": "structured-finance-securitization",
+      "tags": [
+        "Structured Finance",
+        "asset-backed-securities",
+        "auto-loans",
+        "pooling-and-servicing-agreement",
+        "subprime-lending",
+        "payment-waterfall",
+        "credit-enhancement",
+        "securitization",
+        "SPE",
+        "trust-administration"
+      ],
+      "task_id": "structured-finance-securitization/draft-pooling-and-servicing-agreement",
+      "title": "Draft Pooling and Servicing Agreement for Subprime Auto Loan ABS (Granite Peak Auto Receivables Trust 2025-2)",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 87,
+      "deliverables": [
+        "intercreditor-term-extraction-report.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 5,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "banking-finance",
+      "tags": [
+        "Banking & Finance",
+        "bankruptcy",
+        "Chapter-11",
+        "secured-lending",
+        "payment-waterfall",
+        "DIP-financing",
+        "debt-restructuring",
+        "term-extraction"
+      ],
+      "task_id": "banking-finance/extract-intercreditor-agreement-terms",
+      "title": "Intercreditor Agreement Term Extraction \u2014 Structured Summary Report for Chapter 11 Debtor",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 83,
+      "deliverables": [
+        "convertible-note-term-extraction.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "issue_coverage",
+        "recommendation_authority"
+      ],
+      "practice_area": "emerging-companies-venture-capital",
+      "tags": [
+        "Emerging Companies & Venture Capital",
+        "convertible-notes",
+        "term-extraction",
+        "bridge-financing",
+        "dilution-modeling",
+        "cap-table"
+      ],
+      "task_id": "emerging-companies-venture-capital/extract-economic-terms-from-convertible-note",
+      "title": "Extract and Consolidate Economic Terms from Four Convertible Promissory Notes for Bridge Financing Round",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 79,
+      "deliverables": [
+        "allegation-summary-memo.docx"
+      ],
+      "document_count": 5,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "employment-labor",
+      "tags": [
+        "Labor & Employment",
+        "discrimination",
+        "litigation",
+        "complaint-analysis",
+        "Title-VII",
+        "FMLA",
+        "retaliation",
+        "hostile-work-environment",
+        "wrongful-termination"
+      ],
+      "task_id": "employment-labor/extract-key-allegations-from-employment-discrimination-complaint",
+      "title": "Extract Key Allegations from Employment Discrimination Complaint \u2014 Allegation Summary Memorandum",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 79,
+      "deliverables": [
+        "clinical-trial-agreement.docx",
+        "drafting-memo.docx"
+      ],
+      "document_count": 5,
+      "document_ext_counts": {
+        "docx": 3,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "healthcare-life-sciences",
+      "tags": [
+        "Healthcare & Life Sciences",
+        "clinical-trial-agreement",
+        "pharmaceutical",
+        "IP-provisions",
+        "publication-rights",
+        "academic-medical-center",
+        "contract-drafting",
+        "life-sciences-transactions"
+      ],
+      "task_id": "healthcare-life-sciences/draft-clinical-trial-agreement",
+      "title": "Draft Clinical Trial Agreement for Phase 2b Multi-Center Study (GLP-1/GVP Dual Agonist)",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 78,
+      "deliverables": [
+        "award-summary-memorandum.docx"
+      ],
+      "document_count": 5,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "arbitration-international-dispute-resolution",
+      "tags": [
+        "Arbitration",
+        "mergers-and-acquisitions",
+        "purchase-price-disputes",
+        "indemnification",
+        "damages-analysis",
+        "escrow",
+        "award-extraction",
+        "private-equity"
+      ],
+      "task_id": "arbitration-international-dispute-resolution/extract-findings-from-arbitral-award",
+      "title": "Extract Findings from Arbitral Award \u2014 Structured Summary Memorandum",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 77,
+      "deliverables": [
+        "compliance-gap-analysis-memo.docx"
+      ],
+      "document_count": 6,
+      "document_ext_counts": {
+        "docx": 4,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "environmental-esg",
+      "tags": [
+        "Environmental",
+        "compliance-gap-analysis",
+        "climate-disclosure",
+        "ESG-reporting",
+        "regulatory-extraction",
+        "GHG-emissions",
+        "state-regulation"
+      ],
+      "task_id": "environmental-esg/extract-disclosure-requirements-from-environmental-reporting-framework",
+      "title": "Extract Disclosure Requirements and Prepare Compliance Gap Analysis Memorandum for Environmental Reporting Framework",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 72,
+      "deliverables": [
+        "draft-form-a-application.docx",
+        "form-a-issues-memo.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 9,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "insurance",
+      "tags": [
+        "Insurance",
+        "Mergers & Acquisitions",
+        "regulatory-filing",
+        "Form A",
+        "change-of-control",
+        "insurance-holding-company",
+        "private-equity",
+        "Delaware"
+      ],
+      "task_id": "insurance/draft-change-of-control-application",
+      "title": "Draft Form A Change of Control Application for Delaware Insurance Department Filing",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 70,
+      "deliverables": [
+        "gdpr-gap-analysis-memo.docx"
+      ],
+      "document_count": 11,
+      "document_ext_counts": {
+        "docx": 9,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "data-privacy-cybersecurity",
+      "tags": [
+        "Privacy & Data Security",
+        "data-privacy",
+        "data-processing-agreements",
+        "health-data",
+        "regulatory-compliance",
+        "gap-analysis",
+        "cross-border-transfers",
+        "AI-transparency",
+        "EU-law"
+      ],
+      "task_id": "data-privacy-cybersecurity/analyze-gdpr-amendment-impact-on-data-processing-agreement-portfolio",
+      "title": "Analyze GDPR Amendment Impact on Data Processing Agreement Portfolio \u2014 Regulatory Gap Analysis Memorandum",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 64,
+      "deliverables": [
+        "perm-recruitment-report.docx",
+        "compliance-flags-memo.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "immigration",
+      "tags": [
+        "Immigration",
+        "PERM labor certification",
+        "recruitment report",
+        "ETA Form 9089",
+        "employer sponsorship",
+        "permanent residency"
+      ],
+      "task_id": "immigration/draft-perm-recruitment-report",
+      "title": "Draft PERM Recruitment Report for Semiconductor Engineer Labor Certification Filing",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 56,
+      "deliverables": [
+        "gap-analysis-memorandum.docx"
+      ],
+      "document_count": 14,
+      "document_ext_counts": {
+        "docx": 10,
+        "eml": 2,
+        "xlsx": 2
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "white-collar-defense-investigations",
+      "tags": [
+        "White Collar & Investigations",
+        "Environmental",
+        "grand-jury-subpoena",
+        "document-retention",
+        "litigation-hold",
+        "gap-analysis",
+        "Clean Water Act",
+        "obstruction-of-justice",
+        "preservation-obligations"
+      ],
+      "task_id": "white-collar-defense-investigations/compare-federal-grand-jury-subpoena-scope-against-corporate-document-retention-policy",
+      "title": "Gap Analysis: Federal Grand Jury Subpoena Scope vs. Corporate Document Retention Policy",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 88,
+      "deliverables": [
+        "disclosure-schedules.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 7,
+        "xlsx": 3
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-ma",
+      "tags": [
+        "Mergers & Acquisitions",
+        "asset-purchase",
+        "disclosure-schedules",
+        "healthcare-IT",
+        "private-equity",
+        "due-diligence",
+        "representations-and-warranties"
+      ],
+      "task_id": "corporate-ma/draft-disclosure-schedules",
+      "title": "Draft Disclosure Schedules for Asset Purchase Agreement \u2014 Regional Healthcare IT Company Acquisition",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 82,
+      "deliverables": [
+        "comment-memo-response.docx"
+      ],
+      "document_count": 10,
+      "document_ext_counts": {
+        "docx": 10
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "funds-asset-management",
+      "tags": [
+        "fund-formation",
+        "negotiation",
+        "pe-vc",
+        "comment-memo"
+      ],
+      "task_id": "funds-asset-management/respond-to-comment-memo",
+      "title": "Respond to LP Comment Memo",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 85,
+      "deliverables": [
+        "underwriting-agreement.docx",
+        "issues-memorandum.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 9
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "capital-markets",
+      "tags": [
+        "Capital Markets",
+        "IPO",
+        "underwriting-agreement",
+        "securities",
+        "Nasdaq",
+        "medical-device",
+        "selling-stockholders",
+        "equity-offering"
+      ],
+      "task_id": "capital-markets/draft-underwriting-agreement",
+      "title": "Draft Underwriting Agreement for Medical Device Company IPO",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 84,
+      "deliverables": [
+        "board-meeting-minutes.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 9
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "corporate-governance",
+      "tags": [
+        "Corporate Governance",
+        "board-minutes",
+        "M&A",
+        "conflict-of-interest",
+        "Delaware-corporation",
+        "pharma",
+        "officer-appointments",
+        "board-resolutions"
+      ],
+      "task_id": "corporate-governance/draft-board-meeting-minutes",
+      "title": "Draft Board Meeting Minutes for Special Meeting Approving Acquisition, Financing, and Officer Appointments",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 80,
+      "deliverables": [
+        "petition-for-final-distribution.docx",
+        "distribution-summary.docx"
+      ],
+      "document_count": 9,
+      "document_ext_counts": {
+        "docx": 7,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "privilege_release_review"
+      ],
+      "practice_area": "trusts-estates-private-client",
+      "tags": [
+        "Trusts & Estates",
+        "probate",
+        "petition-drafting",
+        "final-distribution",
+        "estate-administration",
+        "Arizona-law",
+        "court-filing"
+      ],
+      "task_id": "trusts-estates-private-client/draft-petition-for-final-distribution",
+      "title": "Draft Petition for Final Distribution \u2014 Arizona Probate Court Filing",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 114,
+      "deliverables": [
+        "dip-financing-motion.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 6,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "bankruptcy-restructuring",
+      "tags": [
+        "Bankruptcy & Restructuring",
+        "DIP-financing",
+        "first-day-motions",
+        "superpriority-liens",
+        "adequate-protection",
+        "chapter-11",
+        "Delaware-bankruptcy",
+        "aerospace-defense"
+      ],
+      "task_id": "bankruptcy-restructuring/draft-dip-financing-motion",
+      "title": "Draft First-Day DIP Financing Motion for Aerospace Manufacturer Chapter 11 Case",
+      "work_type": "draft"
+    },
+    {
+      "criteria_count": 99,
+      "deliverables": [
+        "tp-extraction-summary.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 8
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "tax",
+      "tags": [
+        "Tax",
+        "transfer-pricing",
+        "intercompany-agreements",
+        "IRS-audit",
+        "contract-extraction",
+        "multinational-compliance"
+      ],
+      "task_id": "tax/extract-key-terms-from-intercompany-agreements",
+      "title": "Extract Key Terms from Intercompany Agreements for Transfer Pricing Compliance Summary",
+      "work_type": "analyze"
+    },
+    {
+      "criteria_count": 97,
+      "deliverables": [
+        "closing-checklist-memorandum.docx"
+      ],
+      "document_count": 8,
+      "document_ext_counts": {
+        "docx": 6,
+        "eml": 1,
+        "xlsx": 1
+      },
+      "failure_modes": [
+        "source_support",
+        "jurisdiction_governing_law",
+        "authority_status",
+        "issue_coverage",
+        "recommendation_authority",
+        "privilege_release_review"
+      ],
+      "practice_area": "intellectual-property",
+      "tags": [
+        "Technology Transactions",
+        "intellectual-property",
+        "asset-purchase",
+        "closing-checklist",
+        "transaction-management",
+        "due-diligence",
+        "SaaS",
+        "patent-licensing"
+      ],
+      "task_id": "intellectual-property/draft-closing-checklist-memorandum",
+      "title": "Draft Closing Checklist Memorandum for IP & Technology Asset Purchase Transaction",
+      "work_type": "draft"
+    }
+  ]
+}

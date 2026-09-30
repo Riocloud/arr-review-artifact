@@ -1,0 +1,8 @@
+test,n,expected_accept_n,actual_accept_n,passed_n,pass_rate
+cross_matter_replay,82,0,0,82,1.0
+missing_review_scope_replay,82,0,0,82,1.0
+receipt_type_confusion_as_release,176,0,0,176,1.0
+stale_artifact_hash_replay,82,0,0,82,1.0
+valid_release_receipt,82,82,82,82,1.0
+wrong_audience_replay,82,0,0,82,1.0
+wrong_release_scope_replay,82,0,0,82,1.0

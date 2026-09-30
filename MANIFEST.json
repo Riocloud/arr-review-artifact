@@ -1,0 +1,332 @@
+{
+  "schema": "sage-law.anonymous-artifact.v1",
+  "scope": "Anonymous experimental software and frozen numerical data",
+  "runtime_provenance": "current_checkout_snapshot_not_sealed_historical_runtime",
+  "manuscript_included": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 181,
+      "sha256": "7d734852a817c975a3ecf60578d14f5dc9915642c554485309e77f5d3b66d1e3",
+      "upload": "software"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 257,
+      "sha256": "9804f16037c6893838abf7b74e6fa67b23861b3c12e1f29cc4de2cddef86f145",
+      "upload": "software"
+    },
+    {
+      "path": "DATA_README.md",
+      "bytes": 1043,
+      "sha256": "c53774db84603726c7e87221c9432917ef3186630afb61c747ba7fbe198aa9b8",
+      "upload": "data"
+    },
+    {
+      "path": "LICENSE_NOTICE.md",
+      "bytes": 249,
+      "sha256": "0a996a9dae894b2edf593fa53366a16bd1b49feefa042cd438eb10d5294aeed6",
+      "upload": "software"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4142,
+      "sha256": "f59d9102a8bde9fc91ee36ca000e89ddcbb721e1e3d1052565cb18f6b20fee32",
+      "upload": "software"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 3026,
+      "sha256": "d5314031a9c4b570cb877c6e2db2fa5991253c2ababd19349a8a4e0c91628684",
+      "upload": "data"
+    },
+    {
+      "path": "docs/EVIDENCE_BOUNDARIES.md",
+      "bytes": 2293,
+      "sha256": "d699650e5202ccffd0ddfc44197b2f37e1ac70e135ea891d1815ecb35d51be21",
+      "upload": "software"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "bytes": 2936,
+      "sha256": "2c84c52f4195512ed3020856c693a36829f04ab16f904ad7e040fe7b03a5afd7",
+      "upload": "software"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1300,
+      "sha256": "b7b2c2fca1fda51ef07dfcbdb32fe64ee58cb28d449b96aa29205ef6623e0461",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/README.md",
+      "bytes": 640,
+      "sha256": "b84cee6c567c04e21300acbb6ac10396d1378957af053ee304856da588d87f1a",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/manifests/harvey_nllp_240.json",
+      "bytes": 236605,
+      "sha256": "8fac56f310bdd196fa4dd256b2196a3d4cd45e94d191db399783598396c6062f",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/manifests/harvey_nllp_80.json",
+      "bytes": 80377,
+      "sha256": "b6d85deb11edf8e9f67ac02b12e1fcd44a91bb268dceaf6a2c46e3e8d1e086d2",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/manifests/harvey_smoke_5.json",
+      "bytes": 5615,
+      "sha256": "0642ddec1e344403507cd4e0fc54ba7317c20a68449e36a279811d7f54ee4ef0",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/results/audits/README.md",
+      "bytes": 1009,
+      "sha256": "5578edccb0119fe4778b74c713798e3424957071fee2c548d289c383490d80b7",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analysis_tables/gate_ablation_leaf_effects.csv",
+      "bytes": 430373,
+      "sha256": "3b5df23579d7880348f781af48f54203fbf92c5d1cd0504c1c319151a8d6cb8a",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analysis_tables/gpt_wrapper_view.csv",
+      "bytes": 153,
+      "sha256": "319eb10a564692a180d709bad18898f84a47771e6499738c397d45eaaa13676e",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analysis_tables/judge_agreement.csv",
+      "bytes": 670,
+      "sha256": "e5146f74c9e8670f30cdbe13b672c692ed6109585cebbe590b4a9a351fbd6b44",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analysis_tables/leaf_labels_all_judges.csv",
+      "bytes": 263186,
+      "sha256": "29a2d5cf404c18392878cfca758b6b875ff73a0801b66056f3658b3192189893",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analysis_tables/paired_deltas_mimo_task_clustered.csv",
+      "bytes": 10386,
+      "sha256": "9bd7a65cff69620bd4dc4fd6cd5649ffdd9fcc374d9b704799552fca76d3c831",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analysis_tables/receipt_replay_type_confusion.csv",
+      "bytes": 101852,
+      "sha256": "cae05e91c8bd9c93d40fa97c5d66d43aa2de4b9ad44a3a117c001356479401ca",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analysis_tables/receipt_replay_type_confusion_summary.csv",
+      "bytes": 342,
+      "sha256": "eb491ff10ba93069b03cbd87aa3450fec577776002c24f8e12d23a312704250c",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/analyze_safety_labels.py",
+      "bytes": 26913,
+      "sha256": "5874a05e2f0a916b2637cc24588f3d091dc02b187ff117648df8e519db61b51b",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/results/audits/gate_ablation_analysis.py",
+      "bytes": 20025,
+      "sha256": "83c1e7cc14241ce59db0b3bb2691fd616c459955ee9ce5c27713c86b132dc39e",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/results/audits/gate_ablation_stats.json",
+      "bytes": 16073,
+      "sha256": "0dab3bc5892b4aff75ebac7fe59d7ef5060b74e65df98f2c909fa84160e6ff6a",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/gate_ablation_summary.md",
+      "bytes": 3308,
+      "sha256": "8282a96500a423d068e40d2c2c3486236fea77e3cdbe7b6774f24a0eb37dc280",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/human_output_review_summary.md",
+      "bytes": 1796,
+      "sha256": "12c198abb8c2efd7ad32741b858b779b17fe11790579b55fd6d9a036a686f6c8",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/judge_agreement_summary.md",
+      "bytes": 7363,
+      "sha256": "ae862ff6a5456ee3c9b67754259b822d791df7ce8a317f12d97907e14cf9e35e",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/make_figures.py",
+      "bytes": 25382,
+      "sha256": "13f74d9e1599c276540301d413a36d0b57228e3dabca7287d48b42137e914232",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/results/audits/null_gate_control.py",
+      "bytes": 5322,
+      "sha256": "a6279843cb1e9cb7384c1f06cbe8f7293e04edc5cb08dddd97dac75c7f242db1",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/results/audits/replay_aggregate_tables.py",
+      "bytes": 2417,
+      "sha256": "d00a29bffc083873f5b26eb481bdba9ee1a994e22ff42f70651a82c0853e9db6",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/results/audits/safety_analysis_summary.md",
+      "bytes": 12948,
+      "sha256": "861ffaa705cefee7d9d282cc306eccd2696ad71e139aec14033fc1c28bfc3943",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/safety_stats.json",
+      "bytes": 55972,
+      "sha256": "d209d3976e7b85bd9da314aaf4dee72742cb2a6ee52b9d8e6c48cc70c198baa9",
+      "upload": "data"
+    },
+    {
+      "path": "experiments/results/audits/task_clustered_sensitivity.py",
+      "bytes": 5351,
+      "sha256": "f1b7922d335bdd56b8ed300c0277a6f8ac52fe11c1fcb9fa3ca5f504f808ea4f",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/safety_annotation_lab.py",
+      "bytes": 32637,
+      "sha256": "b7cc9712c2fe9cf35d19677ac514ee36862929d3bcd3b6cf2fbc5073161866c2",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/__init__.py",
+      "bytes": 109,
+      "sha256": "f11e197b087d8570ea9dee4ddf3aea65f4eeb608a6d99560ec89eba88def3460",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/authority.py",
+      "bytes": 11287,
+      "sha256": "8790d474ba604565b28ac340a387c6fa7069a98e69521d1b2e29c0105190eb0b",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/cli.py",
+      "bytes": 14175,
+      "sha256": "827d0129f2de7839e7cb55b4908acaf917296b912f7a6ac4614b867ce7beab81",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/constraints.py",
+      "bytes": 11917,
+      "sha256": "cae5f7a68fce7ec460dd016604af4c637d44968e994aac5a7a3b77caf414d39e",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/deliverables.py",
+      "bytes": 11217,
+      "sha256": "33dfbf8165a626d1d06fc186179443650af83b8d98e3c6f81af11a8aa19e13ae",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/documents.py",
+      "bytes": 20289,
+      "sha256": "9815b607dd8d62c2a9965346b17e45847fc10f0b792104f1f21d35e20e1e570a",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/dry_run.py",
+      "bytes": 3604,
+      "sha256": "5b3bde23a5d490461ceec720f8f39eecb96b6323dac2bacf497da7b66caf7b73",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/grid.py",
+      "bytes": 2169,
+      "sha256": "9280088ffbf729c90140af4197ef8e952fdf5e64d08fb908b752518444ab7561",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/harvey.py",
+      "bytes": 7361,
+      "sha256": "721937cbaf56b618dd2ac50362afe413f3c7dd53f22ab239fadeebe2a6a6c802",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/harvey_scoring.py",
+      "bytes": 46781,
+      "sha256": "73c79c8fbaa213c4624e6f64e25dfd08396b72f6235d619cb7e7617f17126c1b",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/metrics.py",
+      "bytes": 4410,
+      "sha256": "c3730b6ae62afde5368be85e50d6809391aa1d41d00acfdec1f79ff24e0b8842",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/minimax.py",
+      "bytes": 74140,
+      "sha256": "c9a88e66d0d29325a66c00eb912806974ec6b1ebacd877cb873e5f7759810885",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/models.py",
+      "bytes": 767,
+      "sha256": "de7af3f2ae9d78e701b101b842b6fc5b3f510ca8afc3a75dcf13bbddb1ee044a",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/paper_tables.py",
+      "bytes": 9371,
+      "sha256": "c71b54e8258e25e587e685ef1a065f5379a3d7451ba8b82dcd8f2f6c44e7b18f",
+      "upload": "software"
+    },
+    {
+      "path": "experiments/sage_law_experiment/run_status.py",
+      "bytes": 10485,
+      "sha256": "b104373d010ce6fd38d83ee5f4253b4af45285634b4e970991e02ab73845c8e1",
+      "upload": "software"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 2715,
+      "sha256": "d627fcb5edc64dddcf9b5be98e64d9716e989d7ed54ad0cf81084361130daf9b",
+      "upload": "software"
+    },
+    {
+      "path": "requirements-figures.txt",
+      "bytes": 19,
+      "sha256": "be923c642695914a2c78b1fe8cd465496994e45d41c89ae86b5962883f01eb27",
+      "upload": "software"
+    },
+    {
+      "path": "requirements-runtime.txt",
+      "bytes": 37,
+      "sha256": "fdaaa31108b4c5ba6de896cce4f58d2f6400ec6460608f1b4098a30094a9ee90",
+      "upload": "software"
+    },
+    {
+      "path": "scripts/verify_frozen_counts.py",
+      "bytes": 4528,
+      "sha256": "cd35b17aeeef2475c24788d3441d0b4e38a4875f5989d715d7a157a332af6af8",
+      "upload": "software"
+    },
+    {
+      "path": "verify_integrity.py",
+      "bytes": 916,
+      "sha256": "108ec0dd27ce882b55e99f6888787f328bd33d58f66147c46d16ba195c42fbb8",
+      "upload": "software"
+    }
+  ]
+}

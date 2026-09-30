@@ -1,0 +1,5 @@
+wrapper,n,rel_safe,false_release,rel_util
+raw_agent,15,0,0.1333,2.2
+rag_agent,15,0,0,2.2
+cbea_lcv_legal,15,0,0.0667,2.2
+sage_law,15,0.5333,0.1333,1.3333
